@@ -1,5 +1,6 @@
 global without sharing class DragDropFileUploadController {
-	public DragDropFileUploadController(ApexPages.StandardController sc)
+	
+public DragDropFileUploadController(ApexPages.StandardController sc)
 	{
 		
 	}
