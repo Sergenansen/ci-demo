@@ -1,11 +1,13 @@
 global without sharing class DragDropFileUploadController {
 	
+
 public DragDropFileUploadController(ApexPages.StandardController sc)
 	{
 		
 	}
 
-	@RemoteAction
+
+    @RemoteAction
     global static String saveFile(String filename, String fileContent, String id) {
     	String err = null;
     	try
