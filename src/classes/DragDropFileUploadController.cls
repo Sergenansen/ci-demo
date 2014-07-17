@@ -6,7 +6,7 @@ public DragDropFileUploadController(ApexPages.StandardController sc)
 		
 	}
 
-// comment to catch
+// comment to catch again
     @RemoteAction
     global static String saveFile(String filename, String fileContent, String id) {
     	String err = null;
