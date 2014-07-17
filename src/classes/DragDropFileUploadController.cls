@@ -6,7 +6,7 @@ public DragDropFileUploadController(ApexPages.StandardController sc)
 		
 	}
 
-// comment1 to track in github trigger or not trigger
+// comment1 to track in github trigger or not trigger or not bigger
 
     @RemoteAction
     global static String saveFile(String filename, String fileContent, String id) {
